@@ -1,9 +1,36 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
 
+footer{
+    justify-content: end;
+}
 
+.container{
+    width:45%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr auto;
+    gap: 5px;
+    background-color: black;
+    border: 5px solid black;
+}
 
+.community-card{
+    grid-column: span 2;
+}
 
-
-
+.card{
+    background-color: aliceblue;
+}
 
 
 
