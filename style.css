@@ -18,21 +18,29 @@ body{
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr auto;
-    gap: 5px;
-    background-color: black;
     border: 5px solid black;
+    text-align: start;
 }
 
 .card{
     background-color: aliceblue;
+    padding: 1.5rem;  
 }
 
-.community-card{
+#community-card{
     grid-column: span 2;
 }
 
-.subscription-card .subscription-price{
+#subscription-card{
+    background-color: hsl(179, 62%, 43%);
+}
+
+#subscription-card .subscription-price{
     display: inline-block;
+}
+
+#subscription-card p{
+    margin: 0.3rem 0rem;
 }
 
 .attribution{
