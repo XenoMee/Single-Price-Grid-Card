@@ -14,33 +14,100 @@ body{
 }
 
 .grid{
-    width:45%;
+    width:42%;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 0.8fr 1fr;
     grid-template-rows: 1fr auto;
-    border: 5px solid black;
     text-align: start;
 }
 
 .card{
     background-color: aliceblue;
-    padding: 1.5rem;  
+    padding: 2rem;  
 }
+
+h1{
+    color: hsl(179, 62%, 43%);
+    padding: 1.2rem 1rem;
+    margin: 0;
+}
+
+#community-card h3{
+    color: hsl(71, 73%, 54%);
+    margin: 0;
+    padding: 0.7rem 1rem;
+}
+
+#community-card p{
+    color: hsl(218, 22%, 67%);
+    padding: 0.3rem 1rem;
+    margin: 0;
+}
+
 
 #community-card{
     grid-column: span 2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #subscription-card{
     background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    border-bottom-left-radius: 10px;
 }
 
-#subscription-card .subscription-price{
-    display: inline-block;
+#subscription-card #per-month{
+   color: lightgrey;
+}
+
+#subscription-card #subscription-price{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+h2{
+    padding: 1.2rem 1rem;
+    margin: 0;
 }
 
 #subscription-card p{
-    margin: 0.3rem 0rem;
+    display: inline-block;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    margin: 0;
+}
+
+#sign-up{
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    padding: 1rem 6rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+#why-us-card{
+    background-color:rgb(72, 185, 187);
+    color: hsl(204, 43%, 93%);
+    border-bottom-right-radius: 10px;
+}
+
+#why-us-card p{
+    padding: 0.3rem 1rem;
+    margin: 0;
+}
+
+ul{
+    padding: 1rem;
+    margin: 0;
+}
+
+#why-us-card li{
+    list-style-type: none ;
+    line-height: 1.5;
 }
 
 .attribution{
