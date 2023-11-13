@@ -22,7 +22,6 @@ body{
 }
 
 .card{
-    background-color: aliceblue;
     padding: 1.5rem;  
 }
 
@@ -46,6 +45,7 @@ h1{
 
 
 #community-card{
+    background-color: white;
     grid-column: span 2;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
