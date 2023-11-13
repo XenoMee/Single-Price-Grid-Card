@@ -27,7 +27,7 @@ body{
 
 h1{
     color: hsl(179, 62%, 43%);
-    padding: 1.2rem 1rem;
+    padding: 1rem;
     margin: 0;
 }
 
@@ -38,9 +38,11 @@ h1{
 }
 
 #community-card p{
+    width: 80%;
     color: hsl(218, 22%, 67%);
     padding: 0.3rem 1rem;
     margin: 0;
+    line-height: 1.8;
 }
 
 
@@ -147,6 +149,14 @@ ul{
         padding: 1rem;
     }
 
+    #community-card p{
+        width: 90%;
+        color: hsl(218, 22%, 67%);
+        padding: 0.3rem 1rem;
+        margin: 0;
+        line-height: 1.8;
+    }
+
     #subscription-card{
         border-radius: 0%;
     }
@@ -182,5 +192,4 @@ ul{
     ul{
         padding-top: 0.5rem;
     }
-
 }
