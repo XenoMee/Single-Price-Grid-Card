@@ -27,7 +27,7 @@ body{
 
 h1{
     color: hsl(179, 62%, 43%);
-    padding: 1.2rem 1rem;
+    padding: 1rem 1rem;
     margin: 0;
 }
 
@@ -166,7 +166,7 @@ ul{
     }
     
     #sign-up{
-        padding: 0.8rem 6.3rem;
+        padding: 0.8rem 6rem;
         margin: 0.8rem 0rem 0.5rem 1rem;
         font-size: 12px;
     }
