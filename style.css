@@ -16,14 +16,14 @@ body{
 .grid{
     width:42%;
     display: grid;
-    grid-template-columns: 0.8fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
     text-align: start;
 }
 
 .card{
     background-color: aliceblue;
-    padding: 2rem;  
+    padding: 1.5rem;  
 }
 
 h1{
