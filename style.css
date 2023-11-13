@@ -1,9 +1,4 @@
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
@@ -11,6 +6,15 @@ body{
 }
 
 .container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid{
     width:45%;
     display: grid;
     grid-template-columns: 2fr 2fr;
