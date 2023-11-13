@@ -11,7 +11,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .grid{
@@ -24,15 +23,17 @@ body{
     border: 5px solid black;
 }
 
-.community-card{
-    grid-column: span 2;
-}
-
 .card{
     background-color: aliceblue;
 }
 
+.community-card{
+    grid-column: span 2;
+}
 
+.subscription-card .subscription-price{
+    display: inline-block;
+}
 
 .attribution{
     font-size: 11px;
