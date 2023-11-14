@@ -14,7 +14,7 @@ body{
 }
 
 .grid{
-    width:50%;
+    max-width:725px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
@@ -38,7 +38,7 @@ h1{
 }
 
 #community-card p{
-    width: 80%;
+    max-width: 80%;
     color: hsl(218, 22%, 67%);
     padding: 0.3rem 1rem;
     margin: 0;
@@ -125,16 +125,32 @@ ul{
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px){
+@media (min-width: 421px) and (max-width:760px){
+    .grid{
+        max-width: 500px;
+
+    }
+
+    .card{
+        padding: 0.8rem;
+    }
+
+    #sign-up{
+        padding: 0.8rem 3.5rem;
+        margin-top: 0.8rem
+    }
+}
+
+@media (max-width: 420px){
     body{
         font-size: 12px;
     }
 
     .grid{
-        width: 80%;
+        max-width: 300px;
         display: flex;
         flex-direction: column;
-        margin: 5rem;
+        margin: 1rem 2rem;
     }
 
     .card{
@@ -150,7 +166,6 @@ ul{
     }
 
     #community-card p{
-        width: 90%;
         color: hsl(218, 22%, 67%);
         padding: 0.3rem 1rem;
         margin: 0;
@@ -162,14 +177,14 @@ ul{
     }
 
     #subscription-card #subscription-price{
-        padding-left: 1rem;
+        padding-left: 0.5rem;
         padding-top: 0rem;
         padding-bottom: 0rem;
         padding-right: 0rem;
     }
 
     #subscription-card p{
-        padding-left: 1rem;
+        padding-left: 0.5rem;
         padding-top: 0rem;
         padding-bottom: 0rem;
     }
@@ -180,13 +195,13 @@ ul{
     }
     
     #sign-up{
-        padding: 0.8rem 6rem;
-        margin: 0.8rem 0rem 0.5rem 1rem;
+        padding: 0.8rem 4rem;
+        margin: 0.8rem 0rem 0.5rem 0.5rem;
         font-size: 12px;
     }
 
-    h2{
-        padding: 0.5rem 1rem;
+    h3{
+        padding: 0.5rem;
     }
 
     ul{
