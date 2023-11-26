@@ -23,23 +23,18 @@ body{
     padding: 1.5rem 1rem;
 }
 
-h1{
+.community-card > .card-title{
     color: hsl(179, 62%, 43%);
     margin: 0;
 }
 
-#community-card h4{
+.community-card > .card-subtitle{
     color: hsl(71, 73%, 54%);
-    margin: 0;
-    padding: 0.7rem 1rem;
 }
 
-#community-card p{
-    max-width: 80%;
+.community-card p{
     color: hsl(218, 22%, 67%);
-    padding: 0.3rem 1rem;
-    margin: 0;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 
