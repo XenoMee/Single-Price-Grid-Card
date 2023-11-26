@@ -2,32 +2,26 @@ body{
     margin: 0;
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
-    font-size: 1rem;
 }
 
-.container{
-    min-height: 100vh;
+.content{
+    height: 100svh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.grid{
-    max-width: 45.31rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr auto;
-    text-align: start;
-}
-
 .card{
-    padding: 1.5rem;  
+    background-color: white;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 h1{
     color: hsl(179, 62%, 43%);
-    padding: 1rem;
     margin: 0;
 }
 
@@ -121,139 +115,10 @@ ul{
 }
 
 .attribution{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-align: center;
 }
 
 .attribution a{
     color: hsl(228, 45%, 44%);
-}
-
-@media (max-width:47.5rem){
-    .grid{
-        max-width: 33.25rem;
-
-    }
-
-    .card{
-        padding: 0.5rem;
-        height: 12.5rem;
-    }
-
-    h1{
-        font-size: 1.65rem;
-    }
-
-    h3{
-        font-size: 0.9rem;
-    }
-
-    #community-card p{
-        font-size: 0.85rem;
-        max-width: 29rem;
-    }
-
-    #subscription-card p{
-        font-size: 0.85rem;
-    }
-
-    #sign-up{
-        padding: 0.8rem 4.5rem;
-        margin-top: 1rem;
-    }
-
-    #why-us-card{
-        font-size: 0.85rem;
-    }
-}
-
-@media (max-width: 29rem){
-    body{
-        font-size: 0.75rem;
-        font-size: 0.8rem;
-    }
-
-    .grid{
-        max-width: 16.5rem;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem 2rem;
-    }
-
-    .card{
-        padding: 0.8rem;
-    }
-
-    .card p{
-        line-height: 1.8;
-    }
-
-    h4{
-        font-weight: 700;
-    }
-
-    h1{
-        font-weight: 700;
-        font-size: 1.1rem;
-        padding: 1rem;
-    }
-
-    #community-card{
-        height: 11.5rem;
-    }
-
-    #community-card p{
-        color: hsl(218, 22%, 67%);
-        padding: 0.3rem 0.5rem 0.3rem 1rem;
-        margin: 0;
-        font-size: 0.69rem;
-        line-height: 1.5;
-        max-width: 15.3rem;
-    }
-
-    #subscription-card{
-        height: 10.5rem;
-        border-radius: 0;
-    }
-
-    #subscription-card #subscription-price{
-        padding-left: 0.5rem;
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-        padding-right: 0rem;
-    }
-
-    #subscription-card p{
-        padding-left: 0.5rem;
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-    }
-
-    #subscription-card #per-month{
-        padding-left: 0.5rem;
-        padding-right: 0rem;
-    }
-    
-    #sign-up{
-        padding: 1em 7.3em;
-        margin: 0.8rem 0rem 0.5rem 0.5rem;
-        font-size: 0.7rem;
-    }
-
-    h3{
-        padding: 0.5rem;
-    }
-
-    ul{
-        padding-top: 0.5rem;
-        padding-left: 0.5rem;
-        font-size: 0.7rem;
-    }
-
-    #why-us-card{
-        border-bottom-left-radius: 10px;
-        height: 10.5rem;
-    }
-    
-
 }
