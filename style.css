@@ -5,19 +5,22 @@ body{
 }
 
 .content{
-    height: 100svh;
+    height: 110svh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.car-container{
+.card-container{
     background-color: white;
-    width: 20rem;
+    width: 19rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+}
+
+.card{
+    padding: 1.5rem 1rem;
 }
 
 h1{
@@ -47,7 +50,7 @@ h1{
     border-top-left-radius: 10px;
 }
 
-#subscription-card{
+.subscription-card{
     background-color: hsl(179, 62%, 43%);
     color: hsl(204, 43%, 93%);
     border-bottom-left-radius: 10px;
@@ -93,7 +96,7 @@ h3{
     font-size: 1rem;
 }
 
-#why-us-card{
+.why-us-card{
     background-color:rgb(72, 185, 187);
     color: hsl(204, 43%, 93%);
     border-bottom-right-radius: 10px;
