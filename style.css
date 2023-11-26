@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 
-.card{
+.car-container{
     background-color: white;
     width: 20rem;
     display: flex;
