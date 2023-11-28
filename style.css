@@ -17,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 0.5rem;
 }
 
 .card{
@@ -26,6 +27,7 @@ body{
 .community-card *{
     margin: 0;
     margin-bottom: 1rem;
+    
 }
 
 .community-card > .card-title{
@@ -38,20 +40,13 @@ body{
     font-size: 0.9rem;
 }
 
-.community-card p{
+.community-card .card-description{
     color: hsl(218, 22%, 67%);
     font-size: 0.8rem;
     line-height: 1.8;
     margin-bottom: 0.5rem;
 }
 
-
-#community-card{
-    background-color: white;
-    grid-column: span 2;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
 
 .subscription-card{
     background-color: hsl(179, 62%, 43%);
