@@ -5,7 +5,7 @@ body{
 }
 
 .content{
-    height: 100svh;
+    min-height: 100svh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,9 +87,9 @@ body{
     background-color: hsl(71, 73%, 54%);
     color: hsl(204, 43%, 93%);
     width: max-content;
-    padding: 0.8em 6em;
+    padding: 0.8rem 6rem;
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.20);
     font-family: 'Karla', sans-serif;
     font-size: 1rem;
@@ -129,4 +129,53 @@ body{
 .attribution a{
     color: hsl(228, 45%, 44%);
     text-decoration: none;
+}
+
+@media (min-width: 38em) {
+    .content{
+        min-height: 100vh;
+    }
+
+    .card-container{
+        width: 38em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content;
+
+    }
+
+    .community-card{
+        grid-column: span 2;
+    }
+
+    .card{
+        padding: 2em;
+    }
+
+    .community-card .card-title{
+        font-size: 1.5em;
+    }
+
+    .community-card .card-subtitle{
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+
+    .community-card .card-description{
+        font-size: 0.95em;
+        margin-bottom: 0;
+    }
+
+    .subscription-card{
+        border-bottom-left-radius: 0.5em;
+    }
+
+
+    .btn{
+        padding: 0.7em 5.2em;
+    }
+
+    .why-us-card{
+        border-bottom-left-radius: 0;
+    }
 }
