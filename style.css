@@ -98,22 +98,26 @@ body{
 .why-us-card{
     background-color:rgb(72, 185, 187);
     color: hsl(204, 43%, 93%);
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
-#why-us-card p{
-    padding: 0.3rem 1rem;
+.why-us-card .card-title{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.why-us-card .card-description{
+    padding: 0;
     margin: 0;
 }
 
-ul{
-    padding-left: 1rem;
-    margin: 0;
-}
-
-#why-us-card li{
-    list-style-type: none ;
+.card-description li{
+    list-style-type: none;
     line-height: 1.5;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
 
 .attribution{
