@@ -23,20 +23,26 @@ body{
     padding: 1.5rem;
 }
 
+.community-card *{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
 .community-card > .card-title{
     color: hsl(179, 62%, 43%);
-    font-size: 1.3rem;
-    margin: 0;
+    font-size: 1.2rem;
 }
 
 .community-card > .card-subtitle{
     color: hsl(71, 73%, 54%);
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .community-card p{
     color: hsl(218, 22%, 67%);
-    line-height: 1.5;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
 }
 
 
