@@ -61,24 +61,38 @@ body{
     font-size: 1.1rem;
 }
 
-.subscription-card .subscription-price{
+.subscription-price{
     font-size: 2rem;
     font-weight: 700;
     margin-right: 0.5rem;
 }
 
-#sign-up{
+.subscription-availability{
+    display: inline-block;
+    position: relative;
+    bottom: 0.4rem;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.subscription-card .card-description{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.btn{
     background-color: hsl(71, 73%, 54%);
     color: hsl(204, 43%, 93%);
-    padding: 0.8em 6em;
-    margin-left: 1rem;
-    margin-top: 2rem;
     width: max-content;
+    padding: 0.8em 6em;
     border: none;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.20);
     font-family: 'Karla', sans-serif;
     font-size: 1rem;
+    font-weight: 700;
 }
 
 .why-us-card{
