@@ -25,11 +25,13 @@ body{
 
 .community-card > .card-title{
     color: hsl(179, 62%, 43%);
+    font-size: 1.3rem;
     margin: 0;
 }
 
 .community-card > .card-subtitle{
     color: hsl(71, 73%, 54%);
+    font-size: 1rem;
 }
 
 .community-card p{
