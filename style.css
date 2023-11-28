@@ -47,37 +47,24 @@ body{
     margin-bottom: 0.5rem;
 }
 
-
 .subscription-card{
     background-color: hsl(179, 62%, 43%);
     color: hsl(204, 43%, 93%);
-    border-bottom-left-radius: 10px;
 }
 
-
-
-#subscription-card #subscription-price{
-    display: inline-block;
-    font-size: 1.9rem;
-    font-weight: bold;
-}
-
-h3{
-    padding: 1rem;
+.subscription-card * {
     margin: 0;
 }
 
-#subscription-card p{
-    padding: 0.2rem 0rem 0.2rem 1rem;
-    margin: 0;
+.subscription-card .card-title{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
-#subscription-card #per-month{
-    display: inline-block;
-    color: lightgrey;
-    padding-left: 0.5rem;
-    position: relative;
-    bottom: 0.3rem;
+.subscription-card .subscription-price{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
 }
 
 #sign-up{
