@@ -1,5 +1,6 @@
 :root {
   --clr-primary-500: hsl(179, 62%, 43%);
+  --clr-primary-200: hsla(179, 62%, 43%, .7);
   --clr-primary-300: hsl(71, 73%, 54%);
   --clr-neutral-200: hsl(204, 43%, 93%);
   --clr-neutral-400: hsl(218, 22%, 67%);
@@ -94,35 +95,6 @@ body {
   color: var(--clr-neutral-200);
 }
 
-.subscription-card * {
-  margin: 0;
-}
-
-.subscription-card .card-title {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-
-.subscription-price {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-right: 0.5rem;
-}
-
-.subscription-availability {
-  display: inline-block;
-  position: relative;
-  bottom: 0.4rem;
-  font-size: 0.8rem;
-  opacity: 0.5;
-}
-
-.subscription-card .card-description {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
-}
 
 .btn {
   background-color: hsl(71, 73%, 54%);
