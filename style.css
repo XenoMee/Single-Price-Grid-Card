@@ -1,6 +1,6 @@
 :root {
   --clr-primary-500: hsl(179, 62%, 43%);
-  --clr-primary-200: hsla(179, 62%, 43%, .7);
+  --clr-primary-700: hsla(179, 60%, 40%);
   --clr-primary-300: hsl(71, 73%, 54%);
   --clr-neutral-200: hsl(204, 43%, 93%);
   --clr-neutral-400: hsl(218, 22%, 67%);
@@ -65,7 +65,7 @@ body {
 /* Grid Card styling */
 .card{
     --content-spacing: 1rem;
-    --content-padding: 1.5rem 1rem;
+    --content-padding: 2rem 1.5rem;
     --fs-title: 1.3rem;
 
     border-radius: .5rem;
@@ -91,10 +91,14 @@ body {
     font-size: var(--fs-intro-subtitle);
 }
 
+.intro__description{
+    color: var(--clr-neutral-400);
+}
+
 .card__subscription {
     --fs-price: 1.6rem;
 
-  background-color: var(--clr-primary-500);
+  background-color: var(--clr-primary-700);
 }
 
 .subscription__title{
@@ -113,6 +117,7 @@ body {
 
 .btn {
     display: block;
+    text-align: center;
   background-color: var(--clr-primary-300);
   padding: 0.8rem 2rem;
   border: none;
@@ -122,7 +127,7 @@ body {
 }
 
 .card__reason {
-  background-color: var(--clr-primary-200);
+  background-color: var(--clr-primary-500);
 }
 
 .reason__title{
@@ -145,7 +150,8 @@ body {
 }
 
 .has-flex{
-    --flex-spacing: .5rem
+    --flex-spacing: .5rem;
+
     display: flex;
     gap: var(--flex-spacing);
     align-items: center;
