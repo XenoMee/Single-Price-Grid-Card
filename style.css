@@ -65,7 +65,7 @@ body {
 /* Grid Card styling */
 .card{
     --content-spacing: 1rem;
-    --content-padding: 2rem 1.5rem;
+    --content-padding: 1.8rem 1.5rem;
     --fs-title: 1.1rem;
 
     border-radius: .5rem;
@@ -107,23 +107,30 @@ body {
 
 .subscription__title{
     font-size: var(--fs-title);
+    margin-bottom: 1rem;
 }
 
 .price__value{
-    line-height: 1;
+    line-height: .5;
     font-size: var(--fs-price);
     font-weight: var(--fw-bold);
 }
 
 .subscription__type{
     opacity: .4;
+    line-height: .5;
+}
+
+.subscription__details{
+    line-height: 1;
+    margin-bottom: 1rem;
 }
 
 .btn {
     display: block;
     text-align: center;
   background-color: var(--clr-primary-300);
-  padding: 0.8rem 2rem;
+  padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
@@ -144,7 +151,8 @@ body {
 }
 
 .reason__item{
-    opacity: .9;
+    opacity: .8;
+    font-size: .9rem;
 }
 
 /* Utility classes */
