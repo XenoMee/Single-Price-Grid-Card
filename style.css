@@ -120,16 +120,6 @@ body {
   opacity: 0.8;
 }
 
-.attribution {
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}
-
 @media (min-width: 38em) {
   .content {
     min-height: 100vh;
