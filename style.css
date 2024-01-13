@@ -107,7 +107,7 @@ body {
 
 .subscription__title{
     font-size: var(--fs-title);
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
 }
 
 .price__value{
