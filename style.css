@@ -66,7 +66,7 @@ body {
 .card{
     --content-spacing: 1rem;
     --content-padding: 2rem 1.5rem;
-    --fs-title: 1.3rem;
+    --fs-title: 1.1rem;
 
     border-radius: .5rem;
     overflow: hidden;
@@ -74,8 +74,8 @@ body {
 }
 
 .card__intro {
-    --fs-intro-title: 1.5rem;
-    --fs-intro-subtitle: 1.4rem;
+    --fs-intro-title: 1.25rem;
+    --fs-intro-subtitle: .95rem;
 
   background-color: var(--clr-neutral-200);
   padding: 1.5rem 1rem;
@@ -93,10 +93,12 @@ body {
 
 .intro__description{
     color: var(--clr-neutral-400);
+    font-size: .85rem;
+    line-height: 1.7;
 }
 
 .card__subscription {
-    --fs-price: 1.6rem;
+    --fs-price: 2rem;
 
   background-color: var(--clr-primary-700);
 }
@@ -112,7 +114,7 @@ body {
 }
 
 .subscription__type{
-    opacity: .5;
+    opacity: .4;
 }
 
 .btn {
@@ -140,7 +142,7 @@ body {
 }
 
 .reason__item{
-    opacity: .7;
+    opacity: .9;
 }
 
 /* Utility classes */
@@ -150,7 +152,7 @@ body {
 }
 
 .has-flex{
-    --flex-spacing: .5rem;
+    --flex-spacing: .8rem;
 
     display: flex;
     gap: var(--flex-spacing);
@@ -162,48 +164,5 @@ body {
 }
 
 @media (min-width: 38em) {
-  .content {
-    min-height: 100vh;
-  }
 
-  .card-container {
-    width: 38em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: min-content;
-  }
-
-  .community-card {
-    grid-column: span 2;
-  }
-
-  .card {
-    padding: 2em;
-  }
-
-  .community-card .card-title {
-    font-size: 1.5em;
-  }
-
-  .community-card .card-subtitle {
-    font-size: 1.1em;
-    margin-bottom: 0.5em;
-  }
-
-  .community-card .card-description {
-    font-size: 0.95em;
-    margin-bottom: 0;
-  }
-
-  .subscription-card {
-    border-bottom-left-radius: 0.5em;
-  }
-
-  .btn {
-    padding: 0.7em 5.2em;
-  }
-
-  .why-us-card {
-    border-bottom-left-radius: 0;
-  }
 }
