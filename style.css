@@ -95,6 +95,10 @@ body {
   color: var(--clr-neutral-200);
 }
 
+.subscription__title{
+    font-size: var(--fs-title);
+}
+
 
 .btn {
   background-color: hsl(71, 73%, 54%);
@@ -138,6 +142,12 @@ body {
 .has-grid{
     display: grid;
     gap: var(--content-spacing);
+}
+
+.has-flex{
+    --flex-spacing: .5rem
+    display: flex;
+    gap: var(--flex-spacing);
 }
 
 .card--padding{
