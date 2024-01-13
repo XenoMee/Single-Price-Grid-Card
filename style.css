@@ -113,15 +113,12 @@ body {
 }
 
 .btn {
-  background-color: hsl(71, 73%, 54%);
-  color: hsl(204, 43%, 93%);
-  width: max-content;
-  padding: 0.8rem 6rem;
+    display: block;
+  background-color: var(--clr-primary-300);
+  padding: 0.8rem 2rem;
   border: none;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
-  font-family: "Karla", sans-serif;
-  font-size: 1rem;
   font-weight: 700;
 }
 
