@@ -71,6 +71,8 @@ body {
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+
+    display: grid;
 }
 
 .card__intro {
