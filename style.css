@@ -177,4 +177,8 @@ body {
     .card{
         grid-template-columns: 1fr 1fr;
     }
+
+    .card__intro{
+        grid-column: span 2;
+    }
 }
