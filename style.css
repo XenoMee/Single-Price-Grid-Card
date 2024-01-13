@@ -173,6 +173,8 @@ body {
     padding: var(--content-padding);
 }
 
-@media (min-width: 38em) {
-
+@media (min-width: 50em) {
+    .card{
+        grid-template-columns: 1fr 1fr;
+    }
 }
