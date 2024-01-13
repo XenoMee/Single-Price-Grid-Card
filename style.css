@@ -86,6 +86,7 @@ body {
 .intro__title {
     font-size: var(--fs-intro-title);
     color: var(--clr-primary-500);
+    margin-bottom: .5rem;
 }
 
 .intro__subtitle {
@@ -173,14 +174,22 @@ body {
     padding: var(--content-padding);
 }
 
-@media (min-width: 50em) {
+@media (min-width: 40em) {
     .card{
         --content-padding: 2.5rem;
         grid-template-columns: 1fr 1fr;
-        max-width: 50rem;
+        max-width: 40rem;
     }
 
     .card__intro{
+        --fs-intro-title: 1.5rem;
+        --fs-intro-subtitle: 1.125rem;
+
         grid-column: span 2;
+    }
+
+    .intro__description{
+        width: 56ch;
+        font-size: 1rem;
     }
 }
