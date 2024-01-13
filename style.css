@@ -1,181 +1,178 @@
-body{
-    margin: 0;
-    background-color: hsl(204, 43%, 93%);
-    font-family: 'Karla', sans-serif;
+body {
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
 }
 
-.content{
-    min-height: 100svh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.content {
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-container{
-    background-color: white;
-    width: 19rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 0.5rem;
-    box-shadow: 0.3rem 0.3rem 0.5rem rgba(0,0,0,0.2);
+.card-container {
+  background-color: white;
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-.card{
-    padding: 1.5rem;
+.card {
+  padding: 1.5rem;
 }
 
-.community-card *{
-    margin: 0;
-    margin-bottom: 1rem;
-    
+.community-card * {
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
-.community-card > .card-title{
-    color: hsl(179, 62%, 43%);
-    font-size: 1.2rem;
+.community-card > .card-title {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.2rem;
 }
 
-.community-card > .card-subtitle{
-    color: hsl(71, 73%, 54%);
-    font-size: 0.9rem;
+.community-card > .card-subtitle {
+  color: hsl(71, 73%, 54%);
+  font-size: 0.9rem;
 }
 
-.community-card .card-description{
-    color: hsl(218, 22%, 67%);
-    font-size: 0.8rem;
-    line-height: 1.8;
-    margin-bottom: 0.5rem;
+.community-card .card-description {
+  color: hsl(218, 22%, 67%);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
 }
 
-.subscription-card{
-    background-color: hsl(179, 62%, 43%);
-    color: hsl(204, 43%, 93%);
+.subscription-card {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
 }
 
 .subscription-card * {
-    margin: 0;
+  margin: 0;
 }
 
-.subscription-card .card-title{
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
+.subscription-card .card-title {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
-.subscription-price{
-    font-size: 2rem;
-    font-weight: 700;
-    margin-right: 0.5rem;
+.subscription-price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
 }
 
-.subscription-availability{
-    display: inline-block;
-    position: relative;
-    bottom: 0.4rem;
-    font-size: 0.8rem;
-    opacity: 0.5;
+.subscription-availability {
+  display: inline-block;
+  position: relative;
+  bottom: 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
 }
 
-.subscription-card .card-description{
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
+.subscription-card .card-description {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
 }
 
-.btn{
-    background-color: hsl(71, 73%, 54%);
-    color: hsl(204, 43%, 93%);
-    width: max-content;
-    padding: 0.8rem 6rem;
-    border: none;
-    border-radius: 0.3rem;
-    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.20);
-    font-family: 'Karla', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  width: max-content;
+  padding: 0.8rem 6rem;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
-.why-us-card{
-    background-color:rgb(72, 185, 187);
-    color: hsl(204, 43%, 93%);
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+.why-us-card {
+  background-color: rgb(72, 185, 187);
+  color: hsl(204, 43%, 93%);
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
-.why-us-card .card-title{
-    margin: 0;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
+.why-us-card .card-title {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
-.why-us-card .card-description{
-    padding: 0;
-    margin: 0;
+.why-us-card .card-description {
+  padding: 0;
+  margin: 0;
 }
 
-.card-description li{
-    list-style-type: none;
-    line-height: 1.5;
-    font-size: 0.8rem;
-    opacity: 0.8;
+.card-description li {
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  opacity: 0.8;
 }
 
-.attribution{
-    font-size: 0.8rem;
-    text-align: center;
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
 }
 
-.attribution a{
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
 @media (min-width: 38em) {
-    .content{
-        min-height: 100vh;
-    }
+  .content {
+    min-height: 100vh;
+  }
 
-    .card-container{
-        width: 38em;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: min-content;
+  .card-container {
+    width: 38em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
+  }
 
-    }
+  .community-card {
+    grid-column: span 2;
+  }
 
-    .community-card{
-        grid-column: span 2;
-    }
+  .card {
+    padding: 2em;
+  }
 
-    .card{
-        padding: 2em;
-    }
+  .community-card .card-title {
+    font-size: 1.5em;
+  }
 
-    .community-card .card-title{
-        font-size: 1.5em;
-    }
+  .community-card .card-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
 
-    .community-card .card-subtitle{
-        font-size: 1.1em;
-        margin-bottom: 0.5em;
-    }
+  .community-card .card-description {
+    font-size: 0.95em;
+    margin-bottom: 0;
+  }
 
-    .community-card .card-description{
-        font-size: 0.95em;
-        margin-bottom: 0;
-    }
+  .subscription-card {
+    border-bottom-left-radius: 0.5em;
+  }
 
-    .subscription-card{
-        border-bottom-left-radius: 0.5em;
-    }
+  .btn {
+    padding: 0.7em 5.2em;
+  }
 
-
-    .btn{
-        padding: 0.7em 5.2em;
-    }
-
-    .why-us-card{
-        border-bottom-left-radius: 0;
-    }
+  .why-us-card {
+    border-bottom-left-radius: 0;
+  }
 }
