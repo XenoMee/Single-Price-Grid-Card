@@ -175,7 +175,9 @@ body {
 
 @media (min-width: 50em) {
     .card{
+        --content-padding: 2.5rem;
         grid-template-columns: 1fr 1fr;
+        max-width: 50rem;
     }
 
     .card__intro{
