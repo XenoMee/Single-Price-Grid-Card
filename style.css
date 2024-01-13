@@ -66,6 +66,7 @@ body {
     --content-spacing: 1rem;
     --content-padding: 1.5rem 1rem;
     --fs-intro-title: 1.5rem;
+    --fs-intro-subtitle: 1.4rem;
     --fs-title: 1.3rem;
 
     border-radius: .5rem;
@@ -78,6 +79,15 @@ body {
   padding: 1.5rem 1rem;
 }
 
+.intro__title {
+    font-size: var(--fs-intro-title);
+    color: var(--clr-primary-500);
+}
+
+.intro__subtitle {
+    color: var(--clr-primary-300);
+    font-size: var(--fs-intro-subtitle);
+}
 
 .subscription-card {
   background-color: hsl(179, 62%, 43%);
@@ -150,6 +160,12 @@ body {
   line-height: 1.5;
   font-size: 0.8rem;
   opacity: 0.8;
+}
+
+/* Utility classes */
+.has-grid{
+    display: grid;
+    gap: var(--content-spacing);
 }
 
 @media (min-width: 38em) {
