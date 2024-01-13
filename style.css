@@ -142,8 +142,10 @@ body {
   display: block;
   text-align: center;
   background-color: var(--clr-primary-300);
+  color: var(--clr-neutral-200);
   padding: 0.7rem 1.5rem;
   border: none;
+  text-decoration: none;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
   font-weight: 700;
